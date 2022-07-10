@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla Lviv</title>
+    <link rel="stylesheet" href="css/normalize.css?_v=20220710131327">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220710131327">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap&_v=20220710131327" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css?_v=20220710131327" rel="stylesheet">
+</head>
+<body>
+    <header class="header">   
+        <nav class="header__menu" data-aos="fade-down">
+            <div class="container">
+                <div class="menu__inner">
+                    <div class="menu__logo">
+                        TESLA LVIV
+                    </div>
+                    <ul class="menu__list">
+                        <li class="menu__list-item"><a class="menu__link smooth__link" href="#models">Моделі</a></li>
+                        <li class="menu__list-item"><a class="menu__link smooth__link" href="#catalog">Каталог</a></li>
+                        <li class="menu__list-item"><a class="menu__link smooth__link" href="#test-drive">Тест драйв</a></li>
+                        <li class="menu__list-item"><a class="menu__link smooth__link" href="#reviews">Відгуки</a></li>
+                        <li class="menu__list-item"><a class="menu__link smooth__link" href="#contacts">Контакти</a></li>
+                    </ul>
+                    <div class="menu__burger">
+                        <span class="menu__burger-item"></span>
+                        <span class="menu__burger-item"></span>
+                        <span class="menu__burger-item"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__buttons" data-aos="fade-up">
+                        <a class="btn btn--red btn--header smooth__link" href="#models">Переглянути моделі</a>
+                        <a class="btn btn--white btn--header smooth__link" href="#reviews">Переглянути відгуки</a>
+                    </div>
+                    <a href="#models" class="header__arrow smooth__link"><img class="header__arrow-img" src="img/arrow.svg" alt="arrow"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="models" id="models">
+        <div class="container">
+            <div class="models__inner">
+                <div class="title" data-aos="fade-right">Моделі</div>
+                <div class="models__content">
+                    <div class="models__buttons" data-aos="fade-right">
+                        <button class="models__button models__button--active" data-model="s">Model S</button>
+                        <button class="models__button" data-model="x">Model X</button>
+                        <button class="models__button" data-model="3">Model 3</button>
+                        <button class="models__button" data-model="y">Model Y</button>
+                    </div>
+                    <div class="models__img">
+                        <picture><source srcset="img/model_s.webp" type="image/webp"><img class="models__img-item models__img-item--active" src="img/model_s.png" alt="car" data-model="s" data-aos="zoom-in"></picture>
+                        <picture><source srcset="img/model_x.webp" type="image/webp"><img class="models__img-item" src="img/model_x.png" alt="car" data-model="x"></picture>
+                        <picture><source srcset="img/model_3.webp" type="image/webp"><img class="models__img-item" src="img/model_3.png" alt="car" data-model="3"></picture>
+                        <picture><source srcset="img/model_y.webp" type="image/webp"><img class="models__img-item" src="img/model_y.png" alt="car" data-model="y"></picture>
+                    </div>
+                    <div class="models__char" data-aos="zoom-in">
+                        <div class="models__char-text">
+                            <div class="models__char-title model__speed">1.99 c</div>
+                            <div class="models__char-desc">0-100 км/год</div>
+                        </div>
+                        <div class="models__char-text">
+                            <div class="models__char-title model__range">595 км</div>
+                            <div class="models__char-desc">запас ходу</div>
+                        </div>
+                        <div class="models__char-text">
+                            <div class="models__char-title model__ph">1020 кc</div>
+                            <div class="models__char-desc">максимальна потужність</div>
+                        </div>
+                        <a class="btn btn--red btn--models" href="#">Детальніше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <div class="catalog__inner">
+                <div class="title" data-aos="fade-right">Автомобілі в наявності</div>
+                <div class="catalog__content">
+                    <div class="catalog__item" data-aos="zoom-in">
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-aos="zoom-in"> 
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-aos="zoom-in">
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-aos="zoom-in">
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-aos="zoom-in">
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="catalog__item" data-aos="zoom-in">
+                        <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
+                        <div class="catalog__item-desc">
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-model">Tesla Model 3 2018</div>
+                                <div class="catalog__item-price">47999$</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Запас ходу:</div>
+                                <div class="catalog__item-value">520 км</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Потужність:</div>
+                                <div class="catalog__item-value">450 к.с.</div>
+                            </div>
+                            <div class="catalog__item-box">
+                                <div class="catalog__item-char">Пробіг:</div>
+                                <div class="catalog__item-value">36000 км</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn--red btn--catalog" data-aos="fade-up">Завантажити ще</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="form__inner" data-aos="zoom-in"> 
+                <div class="title">Підберемо Tesla саме для вас</div>
+                <form class="form__content">
+                    <input class="form__input" type="text" placeholder="Ім’я">
+                    <input class="form__input" type="text" placeholder="Номер телефону">
+                    <button class="btn btn--red btn--form">Замовити консультацію</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="test-drive" id="test-drive">
+        <div class="container">
+            <div class="test-drive__inner">
+                <div class="title" data-aos="fade-right">Чому треба відвідати наш тест драйв?</div>
+                <div class="test-drive__content">
+                    <div class="test-drive__road"></div>
+                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                        <div class="test-drive__number">1</div>
+                        <div class="test-drive__desc">Широкий вибір маршрутів</div>
+                    </div>
+                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                        <div class="test-drive__number">2</div>
+                        <div class="test-drive__desc">Відчуєте розгін до 100 менше чим за 4 сек</div>
+                    </div>
+                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                        <div class="test-drive__number">3</div>
+                        <div class="test-drive__desc">Демонстрація автопілоту</div>
+                    </div>
+                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                        <div class="test-drive__number">4</div>
+                        <div class="test-drive__desc">Навчитеся кермувати Tesla з телефона</div>
+                    </div>
+                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                        <div class="test-drive__number">5</div>
+                        <div class="test-drive__desc">Демонстрація функцій мультимедія</div>
+                    </div>
+                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                        <div class="test-drive__number">6</div>
+                        <div class="test-drive__desc">Отримаєте інформацію про эксплуатації</div>
+                    </div>
+                    <div class="test-drive__car">
+                        <picture><source srcset="img/tesla.webp" type="image/webp"><img class="test-drive__car-item" src="img/tesla.png" alt="car"></picture>
+                    </div>
+                </div>
+                <button class="btn btn--red btn--test-drive" data-aos="fade-up">Записатися на тест драйв</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="video">
+        <video class="video__item" src="img/video.mp4" autoplay muted loop></video>
+        <div class="video__inner">
+            <div class="video__title" data-aos="fade-down">Подорожуй на будь-яку відстань з Tesla</div>
+            <div class="video__char" data-aos="zoom-in">
+                <div class="video__items">
+                    <div class="video__char-title">595км</div>
+                    <div class="video__char-desc">запас ходу</div>
+                </div>
+                <div class="video__items video__items--center">
+                    <div class="video__char-title">2 год</div>
+                    <div class="video__char-desc">до повної батареї</div>
+                </div>
+                <div class="video__items">
+                    <div class="video__char-title">10 000+</div>
+                    <div class="video__char-desc">зарядних станцій</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews__inner">
+                <div class="title" data-aos="fade-right">Відгуки</div>
+                <div class="reviews__content" data-aos="zoom-in">
+                    <div class="reviews__item">
+                        <div class="reviews__img">
+                            <picture><source srcset="img/reviews.webp" type="image/webp"><img class="reviews__img-item" src="img/reviews.jpg" alt="client"></picture>
+                        </div>
+                        <div class="reviews__text">
+                            <div class="reviews__text-box">
+                            <div class="reviews__text-top">
+                                <div class="reviews__text-date">12 червня 2021</div>
+                                <div class="reviews__text-stars">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                </div>
+                            </div>
+                            <div class="reviews__text-bottom">
+                                <div class="reviews__text-name">Віктор</div>
+                                <div class="reviews__text-desc">Хотілося б висловити велику подяку за такий професіоналізм усій команді, зокрема. Велике дякую, що врахували всі мої побажання при виборі авто. За наступним авто лише до вас!</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews__item">
+                        <div class="reviews__img">
+                            <picture><source srcset="img/reviews.webp" type="image/webp"><img class="reviews__img-item" src="img/reviews.jpg" alt="client"></picture>
+                        </div>
+                        <div class="reviews__text">
+                            <div class="reviews__text-box">
+                            <div class="reviews__text-top">
+                                <div class="reviews__text-date">12 червня 2021</div>
+                                <div class="reviews__text-stars">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                    <img class="reviews__text-star" src="img/star.svg" alt="star">
+                                </div>
+                            </div>
+                            <div class="reviews__text-bottom">
+                                <div class="reviews__text-name">Сергій</div>
+                                <div class="reviews__text-desc">Хотілося б висловити велику подяку за такий професіоналізм усій команді, зокрема. Велике дякую, що врахували всі мої побажання при виборі авто. За наступним авто лише до вас!</div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__buttons">
+                    <button class="reviews__button reviews__button--left"><img class="reviews__button-img" src="img/arrow_slider.svg" alt="arrow"></button>
+                    <button class="reviews__button reviews__button--right"><img class="reviews__button-img" src="img/arrow_slider.svg" alt="arrow"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contacts__inner">
+                <div class="contacts__content" data-aos="fade-right">
+                    <div class="title">Контакти</div>
+                    <div class="contacts__items">
+                        <div class="contacts__item">
+                            <div class="contacts__img"><img class="contacts__img-icon" src="img/map_icon.svg" alt=""></div>
+                            <div class="contacts__text">
+                                <div class="contacts__text-title">Адресса</div>
+                                <div class="contacts__text-desc">Lorem ipsum</div>
+                            </div>
+                        </div>
+                        <div class="contacts__item contacts__item--center">
+                            <div class="contacts__img"><img class="contacts__img-icon" src="img/phone_icon.svg" alt=""></div>
+                            <div class="contacts__text">
+                                <div class="contacts__text-title">Телефон</div>
+                                <div class="contacts__text-desc">Lorem ipsum</div>
+                            </div>
+                        </div>
+                        <div class="contacts__item">
+                            <div class="contacts__img"><img class="contacts__img-icon" src="img/email_icon.svg" alt=""></div>
+                            <div class="contacts__text">
+                                <div class="contacts__text-title">E-mail</div>
+                                <div class="contacts__text-desc">Lorem ipsum</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts__map" data-aos="fade-left"> 
+                    <iframe class="contacts__map-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d598433.6248435015!2d-118.3528825108928!3d34.04663244298433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1657283568638!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__logo">TESLA LVIV</div>
+                <div class="footer__text">2022. Всі права захищені</div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu__container">
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__list-item"><a class="mobile-menu__link smooth__link" href="#models">Моделі</a></li>
+                <li class="mobile-menu__list-item"><a class="mobile-menu__link smooth__link" href="#catalog">Каталог</a></li>
+                <li class="mobile-menu__list-item"><a class="mobile-menu__link smooth__link" href="#test-drive">Тест драйв</a></li>
+                <li class="mobile-menu__list-item"><a class="mobile-menu__link smooth__link" href="#reviews">Відгуки</a></li>
+                <li class="mobile-menu__list-item"><a class="mobile-menu__link smooth__link" href="#contacts">Контакти</a></li>
+            </ul>
+            <div class="mobile-menu__close">✖</div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220710131327"></script>
+    <script src="js/slick.min.js?_v=20220710131327"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js?_v=20220710131327"></script>
+    <script src="js/app.min.js?_v=20220710131327"></script>
+</body>
+</html>
