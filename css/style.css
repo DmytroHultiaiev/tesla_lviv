@@ -1310,6 +1310,6 @@
   }
 }
 
-.webp .header { background: url(../img/bg.webp) center center no-repeat;}
+.webp .header { background: url(../img/bg.webp) center center no-repeat; }
 
 .webp .video { background: url(../img/video_prew.webp) center center no-repeat; }
