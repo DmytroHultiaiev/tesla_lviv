@@ -915,8 +915,17 @@
   color: #FFFFFF;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :focus {
   outline: none;
+}
+
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
 }
 
 * {

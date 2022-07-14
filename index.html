@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tesla Lviv</title>
-    <link rel="stylesheet" href="css/normalize.css?_v=20220714160409">
-    <link rel="stylesheet" href="css/style.min.css?_v=20220714160409">
+    <link rel="stylesheet" href="css/normalize.css?_v=20220714221237">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220714221237">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap&_v=20220714160409" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap&_v=20220714221237" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css?_v=20220714221237"/>
 </head>
 <body>
     <header class="header">   
-        <nav class="header__menu" data-aos="fade-down">
+        <nav class="header__menu animate__animated animate__fadeInDown wow">
             <div class="container">
                 <div class="menu__inner">
                     <div class="menu__logo">
@@ -37,7 +38,7 @@
         <div class="header__content">
             <div class="container">
                 <div class="header__inner">
-                    <div class="header__buttons" data-aos="fade-up">
+                    <div class="header__buttons animate__animated animate__fadeInUp wow">
                         <a class="btn btn--red btn--header smooth__link" href="#models">Переглянути моделі</a>
                         <a class="btn btn--white btn--header smooth__link" href="#reviews">Переглянути відгуки</a>
                     </div>
@@ -50,21 +51,21 @@
     <section class="models" id="models">
         <div class="container">
             <div class="models__inner">
-                <div class="title" data-aos="fade-right">Моделі</div>
+                <div class="title animate__animated animate__fadeInLeft wow">Моделі</div>
                 <div class="models__content">
-                    <div class="models__buttons" data-aos="fade-right">
+                    <div class="models__buttons animate__animated animate__fadeInLeft wow">
                         <button class="models__button models__button--active" data-model="s">Model S</button>
                         <button class="models__button" data-model="x">Model X</button>
                         <button class="models__button" data-model="3">Model 3</button>
                         <button class="models__button" data-model="y">Model Y</button>
                     </div>
                     <div class="models__img">
-                        <picture><source srcset="img/model_s.webp" type="image/webp"><img class="models__img-item models__img-item--active" src="img/model_s.png" alt="car" data-model="s" data-aos="zoom-in"></picture>
+                        <picture><source srcset="img/model_s.webp" type="image/webp"><img class="models__img-item models__img-item--active animate__animated animate__zoomIn wow" src="img/model_s.png" alt="car" data-model="s"></picture>
                         <picture><source srcset="img/model_x.webp" type="image/webp"><img class="models__img-item" src="img/model_x.png" alt="car" data-model="x"></picture>
                         <picture><source srcset="img/model_3.webp" type="image/webp"><img class="models__img-item" src="img/model_3.png" alt="car" data-model="3"></picture>
                         <picture><source srcset="img/model_y.webp" type="image/webp"><img class="models__img-item" src="img/model_y.png" alt="car" data-model="y"></picture>
                     </div>
-                    <div class="models__char" data-aos="zoom-in">
+                    <div class="models__char animate__animated animate__zoomIn wow">
                         <div class="models__char-text">
                             <div class="models__char-title model__speed">1.99 c</div>
                             <div class="models__char-desc">0-100 км/год</div>
@@ -87,9 +88,9 @@
     <section class="catalog" id="catalog">
         <div class="container">
             <div class="catalog__inner">
-                <div class="title" data-aos="fade-right">Автомобілі в наявності</div>
+                <div class="title animate__animated animate__fadeInLeft wow">Автомобілі в наявності</div>
                 <div class="catalog__content">
-                    <div class="catalog__item" data-aos="zoom-in">
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -110,7 +111,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="catalog__item" data-aos="zoom-in"> 
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -131,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="catalog__item" data-aos="zoom-in">
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -152,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="catalog__item" data-aos="zoom-in">
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -173,7 +174,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="catalog__item" data-aos="zoom-in">
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -194,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="catalog__item" data-aos="zoom-in">
+                    <div class="catalog__item animate__animated animate__zoomIn wow">
                         <picture><source srcset="img/catalog_img.webp" type="image/webp"><img class="catalog__item-img" src="img/catalog_img.jpg" alt="car" ></picture>
                         <div class="catalog__item-desc">
                             <div class="catalog__item-box">
@@ -216,14 +217,14 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn btn--red btn--catalog" data-aos="fade-up">Завантажити ще</button>
+                <button class="btn btn--red btn--catalog animate__animated animate__fadeInUp wow">Завантажити ще</button>
             </div>
         </div>
     </section>
 
     <section class="form">
         <div class="container">
-            <div class="form__inner" data-aos="zoom-in"> 
+            <div class="form__inner animate__animated animate__zoomIn wow"> 
                 <div class="title">Підберемо Tesla саме для вас</div>
                 <form class="form__content">
                     <input class="form__input" type="text" placeholder="Ім’я">
@@ -237,30 +238,30 @@
     <section class="test-drive" id="test-drive">
         <div class="container">
             <div class="test-drive__inner">
-                <div class="title" data-aos="fade-right">Чому треба відвідати наш тест драйв?</div>
+                <div class="title animate__animated animate__fadeInLeft wow">Чому треба відвідати наш тест драйв?</div>
                 <div class="test-drive__content">
                     <div class="test-drive__road"></div>
-                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--standart animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">1</div>
                         <div class="test-drive__desc">Широкий вибір маршрутів</div>
                     </div>
-                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--reverse animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">2</div>
                         <div class="test-drive__desc">Відчуєте розгін до 100 менше чим за 4 сек</div>
                     </div>
-                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--standart animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">3</div>
                         <div class="test-drive__desc">Демонстрація автопілоту</div>
                     </div>
-                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--reverse animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">4</div>
                         <div class="test-drive__desc">Навчитеся кермувати Tesla з телефона</div>
                     </div>
-                    <div class="test-drive__item test-drive__item--standart" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--standart animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">5</div>
                         <div class="test-drive__desc">Демонстрація функцій мультимедія</div>
                     </div>
-                    <div class="test-drive__item test-drive__item--reverse" data-aos="zoom-in">
+                    <div class="test-drive__item test-drive__item--reverse animate__animated animate__zoomIn wow">
                         <div class="test-drive__number">6</div>
                         <div class="test-drive__desc">Отримаєте інформацію про эксплуатації</div>
                     </div>
@@ -268,7 +269,7 @@
                         <picture><source srcset="img/tesla.webp" type="image/webp"><img class="test-drive__car-item" src="img/tesla.png" alt="car"></picture>
                     </div>
                 </div>
-                <button class="btn btn--red btn--test-drive" data-aos="fade-up">Записатися на тест драйв</button>
+                <button class="btn btn--red btn--test-drive animate__animated animate__fadeInUp wow">Записатися на тест драйв</button>
             </div>
         </div>
     </section>
@@ -276,8 +277,8 @@
     <section class="video">
         <video class="video__item" src="img/video.mp4" autoplay muted loop></video>
         <div class="video__inner">
-            <div class="video__title" data-aos="fade-down">Подорожуй на будь-яку відстань з Tesla</div>
-            <div class="video__char" data-aos="zoom-in">
+            <div class="video__title animate__animated animate__fadeInLeft wow">Подорожуй на будь-яку відстань з Tesla</div>
+            <div class="video__char animate__animated animate__zoomIn wow" data-aos="zoom-in">
                 <div class="video__items">
                     <div class="video__char-title">595км</div>
                     <div class="video__char-desc">запас ходу</div>
@@ -297,8 +298,8 @@
     <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews__inner">
-                <div class="title" data-aos="fade-right">Відгуки</div>
-                <div class="reviews__content" data-aos="zoom-in">
+                <div class="title animate__animated animate__fadeInLeft wow">Відгуки</div>
+                <div class="reviews__content animate__animated animate__zoomIn">
                     <div class="reviews__item">
                         <div class="reviews__img">
                             <picture><source srcset="img/reviews.webp" type="image/webp"><img class="reviews__img-item" src="img/reviews.jpg" alt="client"></picture>
@@ -357,7 +358,7 @@
     <section class="contacts" id="contacts">
         <div class="container">
             <div class="contacts__inner">
-                <div class="contacts__content" data-aos="fade-right">
+                <div class="contacts__content animate__animated animate__fadeInLeft">
                     <div class="title">Контакти</div>
                     <div class="contacts__items">
                         <div class="contacts__item">
@@ -383,7 +384,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contacts__map" data-aos="fade-left"> 
+                <div class="contacts__map animate__animated animate__fadeInRight"> 
                     <iframe class="contacts__map-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d598433.6248435015!2d-118.3528825108928!3d34.04663244298433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2sua!4v1657283568638!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
@@ -393,8 +394,8 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <div class="footer__logo">TESLA LVIV</div>
-                <div class="footer__text">2022. Всі права захищені</div>
+                <div class="footer__logo animate__animated animate__fadeInLeft">TESLA LVIV</div>
+                <div class="footer__text animate__animated animate__fadeInRight">2022. Всі права захищені</div>
             </div>
         </div>
     </footer>
@@ -412,8 +413,9 @@
         </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220714160409"></script>
-    <script src="js/slick.min.js?_v=20220714160409"></script>
-    <script src="js/app.min.js?_v=20220714160409"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220714221237"></script>
+    <script src="js/slick.min.js?_v=20220714221237"></script>
+    <script src="js/wow.min.js?_v=20220714221237"></script>
+    <script src="js/app.min.js?_v=20220714221237"></script>
 </body>
 </html>
